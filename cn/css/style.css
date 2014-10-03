@@ -1,0 +1,180 @@
+body{ background:url(../images/coverBg.jpg)  center center #300000 ;}
+.m10_r{ margin-right:10px;}
+.m80_r{ margin-right:80px;}
+.m190_r{ margin-right:190px;}
+/*home*/
+.container {padding-right: 45px;padding-left: 45px;}
+a:focus{outline:none;}
+.home{ text-align:center; position:relative; overflow:hidden;}
+.block{ display:block;}
+.homelogo{padding-top:3%;width:100%; text-align:center;}
+.applyNowBtn{ margin-top:2%}
+
+.home_line{ position:absolute; right:0px; top:50px; background:url(../images/coverHomeLine.png) no-repeat right bottom; width:668px;height:742px;}
+.navbar{position:absolute; right:0px; bottom:0px;}
+.navbar-nav > li {float: none; text-align:right; background:url(../images/cover_13.png) no-repeat right bottom; margin-top:36px; height:46px;}
+.navbar-nav > li.last{ background:none !important;}
+.navbar-brand, .navbar-nav > li > a {text-shadow:none; font-family:"Ubuntu"; font-size:22px; color:#eb6100;padding-right:0px; padding-top:0px;}
+.navbar-nav .active  a { color:#7d0022;}
+.nav > li > a:hover, .nav > li > a:focus {background-color:transparent; color:#7d0022;}
+
+.navbar-header .navbar-toggle{ border:1px solid #fff; border-radius:4px; margin-right:2px;}
+.navbar-toggle .icon-bar {background-color: #fff;}
+
+
+/*what*/
+.what_logo{text-align:center;}
+.what{ position:relative; margin-top:70px;}
+.what p{ color:#fff;font-family:'Ubuntu'; font-size:25px; margin-top:38px; margin:0px 50px;}
+.what p a{ color:#fff;}
+.firstletter {font-size: 2em;line-height: 1.5;font-weight: bold; color:#e45e00; margin-right:10px;}
+.what_line{ background:url(../images/whatLine.png) no-repeat left bottom;width:365px; height:432px; position:absolute; right:-100px; bottom:45%;}
+.what ul{ text-align:center; margin-top:90px; overflow:hidden; zoom:1; }
+.what ul li{ display:inline-block;width:33%; text-align:center; margin-bottom:30px; }
+.team_big_link{ position:relative;height:100%; text-align:center;}
+.team_big_link p{ position:absolute; top:2%; left:20%;}
+.team_big_link strong,.team_big_link span{ display:block; color:#3c0a09;font-size:15px; font-family:'Nougatine';}
+.team_big_link strong{padding-top:70px;}
+.team_big_link span{padding-top:10px;}
+.team_big_link  a{color:#410504; text-decoration:underline;font-size:15px; display:block;padding-top:50%; font-family:'Ubuntu';}
+.team_sm{width:100%; margin:0px auto;  text-align:center; margin-top:20px !important;}
+.team_sm li{width:50% !important; text-align:left;  }
+
+
+/*meet*/
+.mentors{ text-align:center;position:relative;}
+.mentorsLine{position:absolute; left:-400px; top:-100px; background:url(../images/fqaLine.png) no-repeat left bottom; width:731px;height:666px;}
+.mentorsTop{padding-top:13px;}
+.mentorsLogo{padding-top:30px;}
+.mentorsMake{padding-top:80px;}
+.mentors h2{color:#eb6100;font-size:33px;font-family:'Ubuntu';}
+.mentorsBtn {padding-top:116px; }
+.mentorsBtn a{ color:#eb6100;font-size:30px; font-family:'Ubuntu';width:300px;padding:10px 20px; display:inline-block; border:2px solid #de5b00; text-align:center;}
+.mentorsBtn a:hover{ background: rgba(255,255,255, 0.9); }
+
+
+/*faq*/
+.faq{padding-top:190px; text-align:center; position:relative;}
+.faqLine{ position:absolute; right:-500px; bottom:15%; background:url(../images/faqLine.png) no-repeat left bottom;width:744px;height:665px;}
+.dlbox{margin-bottom:40px;}
+.faq dl{font-family:'Ubuntu';width:30%; float:left; margin-left:3%;text-align:center; overflow:hidden; }
+.faq dl dt{ color:#fff;padding-top:10px;}
+.faq dl dd{ color:#eb6100; font-size:16px;}
+.faq_sm{padding-top:32px; text-align:center;}
+.faq_sm dd{width:242px; margin:0px auto;}
+.faq_sm dt{font-size:14px;background:url(../images/cover_64.png) no-repeat center center;width:242px;height:65px; margin:0px auto;}
+.faq_md dt{height: 70px;width:308px; font-size:20px;; margin:0px auto;}
+.faq_md dt{font-weight: normal;}
+.faq_md  dd{width:308px; margin:0px auto;}
+.faq_sm .first{ margin-left:-1%;}
+/*sponsersLogo*/
+.sponsersLogo{ text-align:right;padding-right:30px;}
+.sponsers_pic{text-align:center;width:100%;}
+.sponsers_pic a{ display:inline-block;width:19%;padding-top:60px; text-align:center; overflow:hidden;}
+.sponsers_pic img{width:80%;}
+
+.sponsers_bottom{padding-top:100px; text-align:center;width:80%; margin:0px auto;text-align:center;}
+.sponsers_bottom a{width:40%; text-align:center; display:inline-block;}
+.sponsers_bottom img{width:80%;}
+
+
+/*footer*/
+.footer{width:100%;padding:20px 0px 70px 0px; background:rgba(222,91,0,0.6); background:#de5b00 /9;filter:Alpha(opacity=56); margin-top:160px; text-align:center;background:rgba(222,91,0,0.6) none repeat scroll 0 0 !important;/*实现FF背景透明，文字不透明*/
+filter:Alpha(opacity=60); background:#de5b00;/*实现IE背景透明*/}
+.footer p{color:#fff; font-family:'Ubuntu'; font-size:40px;  margin-bottom:25px;}
+.footer img,.footer p{ position:relative;}
+
+
+@media screen and (max-width: 1348px) { /*当屏幕尺寸小于600px时，应用下面的CSS样式*/
+  .faq_md dt {width:100%;font-size:18px;  }
+  .faq_md dd {width:100%; }
+	.team_big_link{width:100%;height:170px;}
+
+  .footer{width:100%;padding:15px 0px 30px 0px;}
+.footer p{ font-size:30px;}
+
+}
+@media screen and (max-width: 960px) { /*当屏幕尺寸小于600px时，应用下面的CSS样式*/
+  .faq_md dt {width:100%;font-size:16px;  }
+  .faq_sm dt{width:100%;}
+  .faq_sm dd {width:100%; font-size:14px;}
+  .what ul li{width:40%; text-align:center; display:inline-block; margin-right:5%; }
+  .footer{width:100%;padding:10px 0px 20px 0px;}
+.footer p{ font-size:30px;}
+
+
+}
+@media screen and (max-width: 750px) { /*当屏幕尺寸小于600px时，应用下面的CSS样式*/
+  .faq dl{ float:none;width:100%; margin-left:auto; margin-right:auto;}
+  .faq_sm dt{width:242px; margin:0px auto; text-align:center;}
+  .faq_md dt{height:88px;width:308px; text-align:center;}
+  .homelogo{width:80%; margin:0px auto; text-align:center;}  
+  .homelogo img{width:100%; }
+
+	
+  .what p{font-size:18px; margin-top:38px; margin:0px 10px;}
+  .what ul {width:100%;}
+  .what ul li{width:100%; text-align:center; display:inline-block; margin-right:5%; height:320px; margin-bottom: 20px;}
+  .what ul li img{width:50%; }
+
+.sponsers_pic a{width:30%;}
+.sponsers_pic img{width:100%;}
+
+.sponsers_bottom{padding-top:100px; text-align:center;width:80%; margin:0px auto;text-align:center;}
+.sponsers_bottom a{width:40%; text-align:center; display:inline-block;}
+.sponsers_bottom img{width:100%;}
+.mentorsBtn {padding-top:50px;}
+.mentorsBtn a{width:40%; font-size:18px;}
+.m80_r{ margin-right:10%;}
+.footer{width:100%;padding:10px 0px 20px 0px; margin-top:120px;}
+.footer p{ font-size:24px; margin-bottom:15px;}
+.whatLogo{width:100%; text-align:center;}
+  .sponsers_bottom{padding-top:100px; text-align:center;width:60%; margin:0px auto;text-align:center;}
+.sponsers_bottom a{width:100%; text-align:center; display:inline-block; }
+.sponsers_bottom img{width:100%;margin-top:30px;}
+
+}
+@media screen and (max-width: 600px) { 
+  .what ul li{display:block;width:100%; height:auto;}
+  .what ul li img{width:80%; padding:20px;}
+.team_big_link span { padding-top: 10px;}
+.team_big_link strong {margin-top: 50px;font-size: 12px;}
+
+}
+@media screen and (max-width: 320px) { /*当屏幕尺寸小于600px时，应用下面的CSS样式*/
+.container{ padding:0px;}
+  .faq_sm dt,.faq_md dt{text-align:center;background:none; background:#eb6100;width:100%; height:auto; border-radious:4px; padding:10px; margin-bottom:10px; font-size:14px;}
+  .navbar-brand, .navbar-nav > li > a{ font-size:14px;}
+  .navbar-nav > li {margin-top:16px; height:36px;}
+.homePic{width:40%; margin:0px auto;}
+.applyNowBtn{ margin-top:20px;}
+
+.whatLogo{width:100%;}
+.what p{ color:#fff;font-family:'Ubuntu'; font-size:16px; margin-top:38px; margin:0px 20px;}
+.what ul{height:auto;width:100%;text-align:center; padding:0px;}
+.what ul li{width:100%; display:block; padding:10px 0px;margin-bottom: 0px;}
+.team_big_link strong {padding-top: 40px; font-size:12px;}
+.team_big_link  span{ font-size:12px;}
+.team_big_link a{padding-top:10px;}
+
+
+.mentorsLogo ,.mentorsLogo img,.faqLogo,.faqLogo img,.sponsersLogo,.sponsersLogo img,.homelogo img,.homePic img{width:100%;}
+.mentorsMake{width:60%; margin:0px auto;}
+.mentorsMake img{width:100%;}
+.mentors h2{font-size:24px;}
+.mentorsBtn {padding-top:50px;}
+.mentorsBtn a{ font-size:12px;}
+.m80_r{ margin-right:10%;}
+
+.sponsersLogo{ padding:0px; text-align:center;}
+.sponsers_pic{width:100%; text-align:center;}
+.sponsers_pic a{width:40%;padding-top: 30px;}
+.sponsers_pic img{width:100%;}
+
+.sponsers_bottom{padding-top:100px; text-align:center;width:60%; margin:0px auto;text-align:center;}
+.sponsers_bottom a{width:100%; text-align:center; display:inline-block; }
+.sponsers_bottom img{width:100%;margin-top:30px;}
+
+.footer{padding:10% 0px 20% 0px;margin-top:80px; width:100%;}
+.footer p{ font-size:18px; margin-bottom:15px;}
+}
